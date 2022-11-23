@@ -51,14 +51,14 @@
       <div class="backdrop is-hidden" data-modal>
         <div class="modal">
           <button type="button" data-modal-close class="modal-bt">
-            <svg width="18px" height="18px" class="modal-img">
+            <svg width="11px" height="11px" class="modal-img">
             <use href="./images/icons.svg#icon-Vector1"></use>
           </svg>
           <!-- <img src="./images/close-black-18dp1.svg" width="18px" alt="хрестик"> -->
         </button>
 
-        <div class="modal-cont">
-          <h2>Залиште свої дані, ми вам передзвонимо</h2>
+        
+          <b>Залиште свої дані, ми вам передзвонимо</b>
           <div>
           <form class="sub-form" autocomplete="off">
             
@@ -88,7 +88,7 @@
             </label>
             
             
-            <label for="comment" >
+            <label class="input">
               Коментар
               <textarea name="comment" rows="6" placeholder="Введіть текст" class="textarea-modal"></textarea>
               </label>
@@ -96,19 +96,19 @@
               
               
           
-          </form>
-          <form class="agree-form">
+          
+          <div class="agree-form">
             <label class="checkbox">
               <input type="checkbox" name="agree"  class="input-check"/><span class="checked"><svg width="16px" height="15px"><use href="./images/icons.svg#icon-icon-check">
               </use></svg></span>
-              <p class="input-p">Погоджуюся з розсилкою та приймаю <span> <a href="">Умови договору</a> </span> </p>
+              <p class="input-p">Погоджуюся з розсилкою та приймаю<span ><a href=" " class="agree-span">Умови договору</a> </span> </p>
             </label>
             <button type="submit" class="modal-btn">Відправити
+            </div>
           </form>
-          
 
           </div>
-        </div>
+        
         </div>
       </div>
       
